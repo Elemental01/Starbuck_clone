@@ -1,3 +1,4 @@
+import "./searchico.css";
 function Nav1() {
   return (
     <div>
@@ -8,14 +9,16 @@ function Nav1() {
           <a href="./Order.js"> Order</a>
           <a href="./Pay.js"> Pay</a>
         </nav>
-      </div>
-      <div className="search-container">
-        <img src="./images/search.svg"></img>
-        <input
-          _ngcontent-eye-c103=""
-          type="text"
-          placeholder="Looking for something specific?"
-        ></input>
+
+        <div className="search-container">
+          <img src="./images/search.svg" alt="search img"></img>
+          <form action="" className="searchbar">
+            <input
+              type="text"
+              placeholder="Looking for something specific?"
+            ></input>
+          </form>
+        </div>
       </div>
       <hr></hr>
     </div>

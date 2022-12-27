@@ -1,4 +1,3 @@
-import "./App.css";
 import Content from "./Content";
 import Nav1 from "./Nav1";
 function App() {
