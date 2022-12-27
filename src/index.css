@@ -10,3 +10,12 @@
   width: 90px;
   height: 90px;
 }
+.Bari-recom img {
+  height: 90px;
+  width: 90px;
+  border-radius: 8px;
+}
+.Bari-recom .vegimg {
+  height: 16px;
+  width: 16px;
+}

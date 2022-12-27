@@ -9,15 +9,15 @@ function Nav1() {
           <a href="./Pay.js"> Pay</a>
         </nav>
       </div>
-      <div class="search-container">
+      <div className="search-container">
+        <img src="./images/search.svg"></img>
         <input
+          _ngcontent-eye-c103=""
           type="text"
-          placeholder="Looking for something specific.."
-          name="search-text"
+          placeholder="Looking for something specific?"
         ></input>
-        <button class="search-button"></button>
-        <hr></hr>
       </div>
+      <hr></hr>
     </div>
   );
 }
